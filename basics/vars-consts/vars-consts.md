@@ -1,6 +1,6 @@
 #Variables and Constants
 
-###[CODE](./vars-consts.go)
+[Code](./vars-consts.go)
 Here we learn about the two ways in which we store values.
 Values can be stored as a variable or a constant. Variables are declared once, and their value can change through the course of a program however the type can't. Constants are declared once and they cannot be changed once declared.
 
