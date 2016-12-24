@@ -1,7 +1,8 @@
 #Learn Go
 
+This is a public repository for those wanting to learn the basics of Go.
 
-#Course Outline
+##Course Outline
 1. [Basics](basics/basics.md)
 	1. [Printing](basics/printing/printing.md)
 	1. [Values](basics/values/values.md)
