@@ -1,7 +1,7 @@
 #Operators and Comparators
 
 [Code](./operators-comparators.go)
-We can conduct basic math and logic operations using different operators. These allow us to perform actions with data. We can also use comparators to compare things.
+We can conduct basic math and logic operations using different operators. These allow us to perform actions with values. We can also use comparators to compare things.
 
 ###Math Operators
 There are five primary math operators, each have different purposes.

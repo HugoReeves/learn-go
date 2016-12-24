@@ -6,5 +6,6 @@ This section will introduce students to the basics of go. You will be able to ma
 1. [Values](./values/values.md)
 1. [Variables and Constants](./vars-consts/vars-consts.md)
 1. [Operators and Comparators](./operators-comparators/operators-comparators.md)
+1. [If Else Statements](./if-else/if-else.md)
 
 [Home](../README.md)
