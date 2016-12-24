@@ -11,6 +11,10 @@ func main() {
 	fmt.Println(7)     //7
 	fmt.Println(7 + 7) //14
 
+	//Floats
+	fmt.Println(0.7777 + 0.7777) //1.554
+	fmt.Println(0.5 * 2)         //1
+
 	//Bools
 	fmt.Println(true) //true
 

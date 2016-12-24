@@ -8,7 +8,7 @@ func main() {
 	var num int = 10
 
 	//Declaring multiple values at once
-	var textOne, textTwo string = "Hello", "There"
+	var floatOne, floatTwo float32 = 0.20, 0.75
 
 	//Defined with no value
 	var decision bool
@@ -18,10 +18,10 @@ func main() {
 
 	//Here we can see what these variables are equal to
 	fmt.Println("The following are the variables printed.")
-	fmt.Println("num =", num)                                               //10
-	fmt.Println("textOne and textTwo printed together =", textOne, textTwo) //Hello There
-	fmt.Println("decision =", decision)                                     // If not defined, defaults to false
-	fmt.Println("myName =", myName)                                         //octocat
+	fmt.Println("num =", num)                                                   //10
+	fmt.Println("floatOne and floatTwo printed together =", floatOne, floatTwo) //0.2 0.75
+	fmt.Println("decision =", decision)                                         // If not defined, defaults to false
+	fmt.Println("myName =", myName)                                             //octocat
 
 	//Declaring constants
 	//The basic method

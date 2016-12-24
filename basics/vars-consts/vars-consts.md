@@ -16,7 +16,7 @@ There are three primary ways to declare variables, each have different purposes.
 	An example is: `var textOne, textTwo string = "Hello", "There"`
 
 * `var NAME TYPE`
-	Similar to the above method, this is a clear way of defining a variable but there is no value given when the variable is created.
+	Similar to the first method, this is a clear way of defining a variable but there is no value given when the variable is created. Vars created with this will have a zero value until they are changed, so a bool will be false and an int will be 0.
 	For example: `var decision bool`
 
 * `NAME := VALUE`
