@@ -35,6 +35,7 @@ There are two main methods in which constants are declared
 	For example: `const constantInteger = 10`
 
 ###Next
-	* [Home](../../README.md)
-	* [Basics Overview](../basics.md)
-	* [Next: If Else](../if-else/if-else.md)
+
+* [Home](../../README.md)
+* [Basics Overview](../basics.md)
+* [Next: If Else](../if-else/if-else.md)
