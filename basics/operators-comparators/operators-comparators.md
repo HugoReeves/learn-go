@@ -73,4 +73,4 @@ Comparators allow us to compare values and if they meet the criteria, return fal
 
 * [Home](../../README.md)
 * [Basics Overview](../basics.md)
-* [Next: If Else](../if-else/if-else.md)
+* [Next: If Else Statements](../if-else/if-else.md)

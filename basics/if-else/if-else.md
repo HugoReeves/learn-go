@@ -40,4 +40,4 @@ Reading this code through, we get. If x is greater than five, print `x is greate
 
 * [Home](../../README.md)
 * [Basics Overview](../basics.md)
-* [Next: If Else](../for/for.md)
+* [Next: For Loops](../for/for.md)
