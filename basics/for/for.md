@@ -32,4 +32,4 @@ There are multiple ways that we can write for statements.
 
 * [Home](../../README.md)
 * [Basics Overview](../basics.md)
-* [Next: For Loops](../for/for.md)
+* [Next: Challenge 1: Count to 20 with Even and Odd](../../challenges/basics/20-even-odd/20-even-odd.md)
