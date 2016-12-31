@@ -38,4 +38,4 @@ There are two main methods in which constants are declared
 
 * [Home](../../README.md)
 * [Basics Overview](../basics.md)
-* [Next: If Else](../logic-math/logic-math.md)
+* [Next: Operators and Comparators](../operators-comparators/operators-comparators.md)
