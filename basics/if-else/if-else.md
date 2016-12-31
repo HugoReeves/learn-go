@@ -6,20 +6,17 @@ If else statements allow programs to make decisions based on values that are giv
 ###Types of statements
 There are three primary ways that we use to make if else statements.
 
-* if
-	Of x is true, do this.
+* if - Of x is true, do this.
 	For example: `if x > 5 {
 		return "x is greater than five"
 	}`
 
-* else if
-	Otherwise, check if this is true and if so, do this.
+* else if - Otherwise, check if this is true and if so, do this.
 	For example: `else if x > 2 {
 		return "x is greater than 2"
 	}`
 
-* else
-	Otherwise do this.
+* else - Otherwise do this.
 	For example: `else {
 		return x
 	}`
