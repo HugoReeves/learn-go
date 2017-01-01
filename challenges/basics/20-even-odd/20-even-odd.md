@@ -51,4 +51,4 @@ You can find the code [here](./20-even-odd.go).
 
 * [Home](../../README.md)
 * [Basics Overview](../basics.md)
-* [Next: Unknown](../../basics/unknown/logic-math.md)
+* [Next: Arrays](../../../basics/arrays/arrays.md)

@@ -9,5 +9,6 @@ This section will introduce students to the basics of go. You will be able to ma
 1. [If Else Statements](./if-else/if-else.md)
 1. [For Loops](for/for.md)
 1. [Challenge 1: Count to 20 with Even and Odd](../challenges/basics/20-even-odd/20-even-odd.md)
+1. [Arrays](arrays/arrays.md)
 
 [Home](../README.md)
