@@ -38,4 +38,4 @@ Now that we can create empty arrays and arrays with our own data, lets look at h
 
 * [Home](../../README.md)
 * [Basics Overview](../basics.md)
-* [Unknown](../../challenges/basics/20-even-odd/20-even-odd.md)
+* [Slices](../slices/slices.md)
