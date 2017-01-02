@@ -1,7 +1,8 @@
-#Arrays
+#Slices
 
-[Code](arrays.go)
-Slices have a changeable length and allow us to store individual pieces of data, of the same type in a single variable. Slices act and index almost exactly like Arrays but the length of a slice can change. Slices are more common in Go code compared to Arrays because they are more flexible and they have more ways in which you can interact with them.
+[Code](slices.go)
+
+Slices have a changeable length and allow us to store individual pieces of data, of the same type in a single variable. Slices act and index almost exactly like arrays but the length of a slice can change. Slices are more common in Go code compared to arrays because they are more flexible and they have more ways in which you can interact with them.
 
 ###Creating Slices
 Creating a Slice as a variable is easy. The syntax for creating a slice is `NAME := make([]DATATYPE, LENGTH)`. This creates a slice with a starting length, but the length of the slice can change.
