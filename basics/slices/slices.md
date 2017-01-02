@@ -24,4 +24,4 @@ You can index slices just like you index arrays. There are also other ways to in
 
 * [Home](../../README.md)
 * [Basics Overview](../basics.md)
-* [Slices](../slices/slices.md)
+* [Switches](../switch/switch.md)
