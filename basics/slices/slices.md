@@ -20,11 +20,6 @@ You can index slices just like you index arrays. There are also other ways to in
 
 	For example: `fmt.Println(len(sliceA))` prints an int of the length of the slice.
 
-* Indexing below and above indexes - Similarly, you can index below and above indexes by using the : character.
-
-	For example: `fmt.Println(commonNames[0:])` will print all values including and above the 0 index, in this case John, Jeff and Ben.
-	`fmt.Println(commonNames[:2])` will print all values below but excluding the 2 index, in this case John and Jeff.
-
 ###Next
 
 * [Home](../../README.md)
