@@ -51,4 +51,4 @@ There are multiple ways to use switches, but generally you include a variable in
 
 * [Home](../../README.md)
 * [Basics Overview](../basics.md)
-* [Slices](../slices/slices.md)
+* [Maps](../maps/maps.md)

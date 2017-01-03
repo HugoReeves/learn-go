@@ -11,5 +11,6 @@ This section will introduce students to the basics of go. You will be able to ma
 1. [Challenge 1: Count to 20 with Even and Odd](../challenges/basics/20-even-odd/20-even-odd.md)
 1. [Arrays](arrays/arrays.md)
 1. [Switches](switches/switches.md)
+1. [Maps](maps/maps.md)
 
 [Home](../README.md)
