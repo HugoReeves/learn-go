@@ -15,6 +15,7 @@ This is a public repository for those wanting to learn the basics of Go.
 	1. [Slices](basics/slices/slices.md)
 	1. [Switches](basics/switches/switches.md)
 	1. [Maps](basics/maps/maps.md)
+	1. [Range](basics/range/range.md)
 
 #Getting Setup with Go
 

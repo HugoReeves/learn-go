@@ -35,4 +35,4 @@ Like slices and arrays, maps are another way to store data with their own benefi
 
 * [Home](../../README.md)
 * [Basics Overview](../basics.md)
-* [Maps](../maps/maps.md)
+* [Range](../range/range.md)
