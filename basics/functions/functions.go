@@ -11,5 +11,5 @@ func bingo(userI int, bingoNum int) bool {
 }
 
 func main() {
-	fmt.Println(bingo(7, 238))
+	fmt.Println(bingo(7, 238))	//false
 }
