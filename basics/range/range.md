@@ -30,4 +30,4 @@ The following explains the specific interactions range has with different dataty
 
 * [Home](../../README.md)
 * [Basics Overview](../basics.md)
-* [Maps](../maps/maps.md)
+* [Functions](../functions/functions.md)

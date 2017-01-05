@@ -13,5 +13,6 @@ This section will introduce students to the basics of go. You will be able to ma
 1. [Switches](switches/switches.md)
 1. [Maps](maps/maps.md)
 1. [Range](range/range.md)
+1. [Functions](functions/functions.md)
 
 [Home](../README.md)
