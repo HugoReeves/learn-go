@@ -50,5 +50,5 @@ You can find the code [here](./20-even-odd.go).
 ###Next
 
 * [Home](../../README.md)
-* [Basics Overview](../../basics/basics.md)
+* [Basics Overview](../../../basics/basics.md)
 * [Next lesson: Arrays](../../../basics/arrays/arrays.md)
