@@ -27,7 +27,7 @@ fmt.Println("Is", 17, "prime?", checkPrime(17))
 fmt.Println("Is", 15, "prime?", checkPrime(15))
 fmt.Println("Is", 239, "prime?", checkPrime(239))
 ```
-Check out the completed and annotated [Code](check-prime.go)
+Check out the completed and annotated [code](check-prime.go).
 
 
 ###Next
