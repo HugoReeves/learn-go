@@ -14,7 +14,7 @@ After learning about the different value types, variables and constants, if else
 Now, what are you waiting for? Create a new file either here and call it myanswer.go and get going. The solution to this problem can be found in [20-even-odd.go](20-even-odd.go).
 ###Hints
 
-1. You may need to look at the [Operators and Comparators](../../../basics/operators-comparators/operators-comparators.md) section to figure out how to find even and odd numbers.
+1. You may need to look at the [Operators and Comparators](../../../basics/operators/operators.md) section to figure out how to find even and odd numbers.
 
 ###A Solution, Explained
 [Solution](./20-even-odd.go). This is only one way of solving the problem, and as with most programming challenges, there are multiple ways to go about solving the same problem. In this method, and all other methods, we start with the basic outline of a Go program.

@@ -32,4 +32,4 @@ There are two main methods in which constants are declared
 
 * [Home](../../README.md)
 * [Basics Overview](../basics.md)
-* [Next: Operators and Comparators](../operators-comparators/operators-comparators.md)
+* [Next: Operators](../operators/operators.md)

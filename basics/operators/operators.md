@@ -1,10 +1,10 @@
-#Operators and Comparators
+#Operators
 
-[Code](./operators-comparators.go)
-We can conduct basic math and logic operations using different operators. These allow us to perform actions with values. We can also use comparators to compare things.
+[Code](./operators.go)
+We can conduct basic arithmetic and logic operations using different operators. These allow us to perform actions with values. We can also use comparison operators to compare things.
 
-###Math Operators
-There are five primary math operators, each have different purposes.
+###Arithmetic Operators
+There are five primary arithmetic operators, each have different purposes.
 
 * Addition `+` - The addition operator allows us to add together numbers.
 	For example: `5+2` is equal to `7`
@@ -33,8 +33,8 @@ Logic operators allow us to make decisions based on data. There are three common
 * NOT `!` - The NOT operator allows us to check what something is not.
 	For example: `!true` is equal to `false` and `!false` is equal to `true`
 
-###Comparators
-Comparators allow us to compare values and if they meet the criteria, return false. This will make more sense in the next section using If Else statements.
+###Comparison Operators
+Comparison operators allow us to compare values and if they meet the criteria, return false. This will make more sense in the next section using If Else statements.
 
 * is equal to `==` - Is true if x is equal to y.
 	For example: `10 == 5` is equal to `false`

@@ -7,7 +7,7 @@ This is a public repository for those wanting to learn the basics of Go.
 	1. [Printing](basics/printing/printing.md)
 	1. [Values](basics/values/values.md)
 	1. [Variables and Constants](basics/vars-consts/vars-consts.md)
-	1. [Operators and Comparators](basics/operators-comparators/operators-comparators.md)
+	1. [Operators](basics/operators/operators.md)
 	1. [If Else Statements](basics/if-else/if-else.md)
 	1. [For Loops](basics/for/for.md)
 	1. [Challenge 1: Count to 20 with Even and Odd](challenges/basics/20-even-odd/20-even-odd.md)

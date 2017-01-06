@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	//Math Operations
+	//Arithmetic Operations
 	//Addition
 	fmt.Println("5 + 2 =", 5+2) //7
 
