@@ -28,4 +28,4 @@ For example: `fmt.Println(bingo(7,238))` will print false.
 
 * [Home](../../README.md)
 * [Basics Overview](../basics.md)
-* [Intermediate](../../intermediate/intermediate.md)
+* [Challenge 2: Check if Prime](../../challenges/basics/check-prime/check-prime.md)
