@@ -1,7 +1,7 @@
 #Values
 
 [Code](./values.go)
-There are different kinds of values in Go. The three most basic types of values are strings, ints and bools. It is important that when we perform actions in Go we know what types of values we are working with.
+There are different kinds of values in Go. The four most basic types of values are strings, ints, floats and bools. It is important that when we perform actions in Go we know what types of values we are working with.
 
 ###Basic Value Types
 * String - `string`, stores text.
