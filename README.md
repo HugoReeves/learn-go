@@ -18,6 +18,8 @@ This is a public repository for those wanting to learn the basics of Go.
 	1. [Range](basics/range/range.md)
 	1. [Functions](basics/functions/functions.md)
 	1. [Challenge 2: Check if Prime](challenges/basics/check-prime/check-prime.md)
+1. [Intermediate](intermediate/intermediate.md)
+	1. [Advanced Functions](intermediate/adv-func/adv-func.md)
 
 ##Getting Setup with Go
 
