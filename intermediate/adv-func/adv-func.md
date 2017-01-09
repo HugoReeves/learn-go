@@ -47,5 +47,5 @@ Functions that can return multiple values can be useful for many different appli
 ###Next
 
 * [Home](../../README.md)
-* [Basics Overview](../basics.md)
-* [Maps](../maps/maps.md)
+* [Intermediate Overview](../intermediate.md)
+* [Recursive Functions](../recursive-functions/recursive-functions.md)

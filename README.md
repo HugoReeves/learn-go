@@ -20,6 +20,7 @@ This is a public repository for those wanting to learn the basics of Go.
 	1. [Challenge 2: Check if Prime](challenges/basics/check-prime/check-prime.md)
 1. [Intermediate](intermediate/intermediate.md)
 	1. [Advanced Functions](intermediate/adv-func/adv-func.md)
+	1. [Recursive Functions](intermediate/recursive-functions/recursive-functions.md)
 
 ##Getting Setup with Go
 
