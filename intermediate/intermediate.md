@@ -6,3 +6,5 @@ Now that we know the basics of programming in Go, we can move on to more advance
 
 1. [Advanced Functions](adv-func/adv-func.md) - Learn how to create functions that return more than one value, and take an arbitrary number of arguments.
 1. [Recursive Functions](recursive-functions/recursive-functions.md) - Recursive Functions are functions that call themselves.
+
+* [Home](../README.md)
