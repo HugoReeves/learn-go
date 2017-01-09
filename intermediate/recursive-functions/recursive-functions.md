@@ -1,5 +1,7 @@
 #Recursive Functions
 
+[Code](recursive-functions.go)
+
 Recursive Functions are functions that call themselves. Recursive functions work by returning themselves unless a certain if else statement runs.
 
 ###Defining Recursive Functions
