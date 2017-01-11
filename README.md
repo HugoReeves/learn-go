@@ -22,6 +22,7 @@ This is a public repository for those wanting to learn the basics of Go.
 	1. [Advanced Functions](intermediate/adv-func/adv-func.md)
 	1. [Recursive Functions](intermediate/recursive-functions/recursive-functions.md)
 	1. [Anonymous Functions and Closures](intermediate/anonymous-functions-closures/anonymous-functions-closures.md)
+	1. [Scope](intermediate/scope/scope.md)
 
 ##Getting Setup with Go
 

@@ -58,4 +58,4 @@ So, when we run the following code, the variable, storeThisVal, defined inside o
 
 * [Home](../../README.md)
 * [Intermediate Overview](../intermediate.md)
-* [Anonymous Functions and Closures](../anonymous-functions-closures/anonymous-functions-closures.md)
+* [Scope](../scope/scope.md)
