@@ -22,4 +22,4 @@ fmt.Println("Scope example:", scopeExample)
 
 * [Home](../../README.md)
 * [Intermediate Overview](../intermediate.md)
-* [Anonymous Functions and Closures](../anonymous-functions-closures/anonymous-functions-closures.md)
+* [Pointers](../pointers/pointers.md)

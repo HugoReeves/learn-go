@@ -1,6 +1,6 @@
 #Learn Go
 
-This is a public repository for those wanting to learn the basics of Go.
+This is a public repository for those wanting to learn the basics of Go. You can take a look at the [Roadmap](roadmap.md) or take a look at the [Projects section](https://github.com/DevelopDevs/learn-go/projects) to learn about the plans for this course.
 
 ##Course Outline
 1. [Basics](basics/basics.md)
@@ -23,6 +23,7 @@ This is a public repository for those wanting to learn the basics of Go.
 	1. [Recursive Functions](intermediate/recursive-functions/recursive-functions.md)
 	1. [Anonymous Functions and Closures](intermediate/anonymous-functions-closures/anonymous-functions-closures.md)
 	1. [Scope](intermediate/scope/scope.md)
+	1. [Pointers](intermediate/pointers/pointers.md)
 
 ##Getting Setup with Go
 
