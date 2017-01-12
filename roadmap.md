@@ -28,5 +28,6 @@ The lessons here may be complete or incomplete. The complete lessons will be lin
 	1. [Anonymous Functions and Closures](intermediate/anonymous-functions-closures/anonymous-functions-closures.md)
 	1. [Scope](intermediate/scope/scope.md)
 	1. [Pointers](intermediate/pointers/pointers.md)
+	1. Challenge 3: Factorial Function using Pointers
     1. Structs
     1. Methods
