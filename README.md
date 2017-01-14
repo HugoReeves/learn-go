@@ -24,7 +24,7 @@ This is a public repository for those wanting to learn the basics of Go. You can
 	1. [Anonymous Functions and Closures](intermediate/anonymous-functions-closures/anonymous-functions-closures.md)
 	1. [Scope](intermediate/scope/scope.md)
 	1. [Pointers](intermediate/pointers/pointers.md)
-	1. [Challenge 3: Factorial Function using Pointers](challenges/intermediate/factorial-functions/factorial-functions.md)
+	1. [Challenge 3: Factorial Function using Pointers](challenges/intermediate/factorial-function/factorial-function.md)
 	1. [Structs](intermediate/structs/structs.md)
 
 ##Getting Setup with Go
