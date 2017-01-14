@@ -9,6 +9,7 @@ Now that we know the basics of programming in Go, we can move on to more advance
 1. [Anonymous Functions and Closures](anonymous-functions-closures/anonymous-functions-closures.md) - Anonymous Functions allow us to make and use functions inline and Anonymous Functions can create closures.
 1. [Scope](scope/scope.md) - The scope is how we manage where things can be called.
 1. [Pointers](pointers/pointers.md) - Pointers allow us to pass the memory location of variables.
-1. [Challenge 3: Factorial Function using Pointers](../intermediate/factorial-functions/factorial-functions.md) - Find the factorial of an input using for loops and pointers.
+1. [Challenge 3: Factorial Function using Pointers](../challenges/intermediate/factorial-functions/factorial-functions.md) - Find the factorial of an input using for loops and pointers.
+1. [Structs](structs/structs.md) - Structs are organised lists of data with defined datatypes, you can easily organise 'objects' in your code with structs.
 
 [Home](../README.md)

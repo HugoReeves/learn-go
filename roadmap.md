@@ -29,5 +29,5 @@ The lessons here may be complete or incomplete. The complete lessons will be lin
 	1. [Scope](intermediate/scope/scope.md)
 	1. [Pointers](intermediate/pointers/pointers.md)
 	1. [Challenge 3: Factorial Function using Pointers](challenges/intermediate/factorial-functions/factorial-functions.md)
-    1. Structs
+    1. [Structs](intermediate/structs/structs.md)
     1. Methods

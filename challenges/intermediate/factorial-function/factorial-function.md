@@ -62,4 +62,4 @@ func main() {
 
 * [Home](../../README.md)
 * [Intermediate Overview](../../../intermediate/intermediate.md)
-* [Next lesson: Intermediate Overview](../../../intermediate/intermediate.md)
+* [Next Lesson: Structs](../../../intermediate/structs/structs.md)
