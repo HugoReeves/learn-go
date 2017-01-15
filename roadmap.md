@@ -30,4 +30,4 @@ The lessons here may be complete or incomplete. The complete lessons will be lin
 	1. [Pointers](intermediate/pointers/pointers.md)
 	1. [Challenge 3: Factorial Function using Pointers](challenges/intermediate/factorial-function/factorial-function.md)
     1. [Structs](intermediate/structs/structs.md)
-    1. Methods
+    1. [Methods](intermediate/methods/methods.md)

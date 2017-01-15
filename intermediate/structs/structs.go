@@ -28,4 +28,7 @@ func main() {
 	//As expected you can also insert your data immediately.
 	enemies[2] = enemy{"Tim", 2, 40, "Alien"}
 	fmt.Println(enemies) //[{Ralph 1 20 Goblin} {James 0 10 Humanoid} {Tim 2 40 Alien}]
+
+	//Accessing values in relation to field name
+	fmt.Println(ralph.health) //20
 }

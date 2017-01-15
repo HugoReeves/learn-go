@@ -26,6 +26,7 @@ This is a public repository for those wanting to learn the basics of Go. You can
 	1. [Pointers](intermediate/pointers/pointers.md)
 	1. [Challenge 3: Factorial Function using Pointers](challenges/intermediate/factorial-function/factorial-function.md)
 	1. [Structs](intermediate/structs/structs.md)
+	1. [Methods](intermediate/methods/methods.md)
 
 ##Getting Setup with Go
 
