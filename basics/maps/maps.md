@@ -1,4 +1,4 @@
-#Maps
+# Maps
 
 [Code](maps.go)
 
@@ -31,7 +31,7 @@ Like slices and arrays, maps are another way to store data with their own benefi
 
 	For example: `newMap := map[string]int{"age": 21, "children": 0, "siblings": 3}` will create a new map and add the key value pairings stated.
 
-###Next
+### Next
 
 * [Home](../../README.md)
 * [Basics Overview](../basics.md)

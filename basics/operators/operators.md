@@ -1,9 +1,9 @@
-#Operators
+# Operators
 
 [Code](./operators.go)
 We can conduct basic arithmetic and logic operations using different operators. These allow us to perform actions with values. We can also use comparison operators to compare things.
 
-###Arithmetic Operators
+### Arithmetic Operators
 There are five primary arithmetic operators, each have different purposes.
 
 * Addition `+` - The addition operator allows us to add together numbers.
@@ -21,7 +21,7 @@ There are five primary arithmetic operators, each have different purposes.
 * Modulus `%` - Following on from the divisional operator, the modulus operator allows us to find the remainder of a division.
 	For example: `10%2` is equal to `0` as there is no remainder but `9%2` is equal to `1` as the remainder of this division is 1.
 
-###Logic Operators
+### Logic Operators
 Logic operators allow us to make decisions based on data. There are three common logic operators. The use of these will make more sense in the next section, but for now we will use booleans to show how Logic Operators work.
 
 * OR `||` - The OR operator allows us check if one thing or another is true.
@@ -33,7 +33,7 @@ Logic operators allow us to make decisions based on data. There are three common
 * NOT `!` - The NOT operator allows us to check what something is not.
 	For example: `!true` is equal to `false` and `!false` is equal to `true`
 
-###Comparison Operators
+### Comparison Operators
 Comparison operators allow us to compare values and if they meet the criteria, return false. This will make more sense in the next section using If Else statements.
 
 * is equal to `==` - Is true if x is equal to y.
@@ -55,7 +55,7 @@ Comparison operators allow us to compare values and if they meet the criteria, r
 	For example: `10 < 5` is equal to `false`
 
 
-###Next
+### Next
 
 * [Home](../../README.md)
 * [Basics Overview](../basics.md)

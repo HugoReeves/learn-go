@@ -1,9 +1,9 @@
-#Arrays
+# Arrays
 
 [Code](arrays.go)
 Arrays have a set length and allow us to store individual pieces of data, of the same type in a single variable. When you initialize an array in Go, you can initialize the array with predefined values, or create the array with empty values. Importantly, the length of an array cannot be changed, in the next lesson we will learn about slices, which are similar to arrays but the length of a slice can change.
 
-###Creating Arrays
+### Creating Arrays
 There are multiple ways that we can create arrays. You can think about arrays as lists but arrays are lists with a defined length. It is also important to note that when we create arrays, we must define what data type the array can store, int, string, etc.
 
 * Creating an empty array of specified length - Being able to initialize an array with empty values allows us to build an array that we can fill in with our own data as our program runs. Creating an empty array is similar to creating an empty variable. We create arrays by writing in our program, `var NAME [ARRAY LENGTH]DATATYPE`
@@ -18,7 +18,7 @@ There are multiple ways that we can create arrays. You can think about arrays as
 
 	For example: `var threeDimension [2][3][4]int`
 
-###Indexing Arrays
+### Indexing Arrays
 Now that we can create empty arrays and arrays with our own data, lets look at how we interact with arrays. Indexing is how we change or look at certain values of our array. The syntax for indexing an array is `ARRAYNAME[INDEX]`, it is important to note that the first entry in our array is at the 0 index, and therefore if we create an array of length 5, the final entry in the array is at index 4. This is a little confusing but it is standard across many programming languages.
 
 * Indexing Single Values - Once we know how to index an array, we can update or print individual values just like any other variable.
@@ -34,7 +34,7 @@ Now that we can create empty arrays and arrays with our own data, lets look at h
 	For example: `fmt.Println(commonNames[0:])` will print all values including and above the 0 index, in this case John, Jeff and Ben.
 	`fmt.Println(commonNames[:2])` will print all values below but excluding the 2 index, in this case John and Jeff.
 
-###Next
+### Next
 
 * [Home](../../README.md)
 * [Basics Overview](../basics.md)

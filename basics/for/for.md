@@ -1,9 +1,9 @@
-#For Loops
+# For Loops
 
 [Code](./for.go)
 For loops allow your code to repeat a piece of code based on a variable or set parameters. Just like If Else statements, For loops are a key part of many code operations and for loops can be found in many languages.
 
-###Different ways to write For statements
+### Different ways to write For statements
 There are multiple ways that we can write for statements.
 
 * The three argument for loop - The most common type of for loop is a three argument for loop. The first argument initialises a variable that is usually used for counting in the loop, this is often called the index variable. The second argument makes a statement that must be true for the loop to run. The final argument states a change to the index variable that occurs after each run through of the loop.
@@ -25,7 +25,7 @@ There are multiple ways that we can write for statements.
 	```
 	This will print the numbers 1 to 10.
 
-###Next
+### Next
 
 * [Home](../../README.md)
 * [Basics Overview](../basics.md)
