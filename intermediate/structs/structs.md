@@ -1,10 +1,10 @@
-#Structs
+# Structs
 
 [Code](structs.go)
 
 Structs are organised lists of data with defined datatypes, you can easily organise 'objects' in your code with structs. Structs are useful because you can define their format once, and then create any number of varaibles or entries based on the single datatype. Structs are commonly used in OOP (Object Oriented Programming), which is a current method of programming used to organise your code.
 
-###Defining a Struct
+### Defining a Struct
 
 Defining structs follows a pretty basic syntax, you enter the name for your struct and then the fields and datatypes associated with each field. Structs you define are considered types, or datatypes, this means you can use them wherever a type such as int or string is accepted. You can make funcs that accept a struct or use a struct as a type definition for an array. The syntax to define a struct is as follows,
 ```go
@@ -24,7 +24,7 @@ type enemy struct {
 }
 ```
 
-###Using Structs
+### Using Structs
 
 Now that we have defined a struct, how do we interact wih structs?
 
@@ -44,7 +44,7 @@ Now that we have defined a struct, how do we interact wih structs?
 
 1. Accessing values - You can easily access values corresponding to a field name with the syntax `STRUCT.FIELDNAME`. Using our code, we can access the health of the ralph enemy struct using the following code `ralph.health`. So `fmt.Println(ralph.health)` prints, 20, which is the health value of the enemy struct that is the ralph variable.
 
-###Next
+### Next
 
 * [Home](../../README.md)
 * [Intermediate Overview](../intermediate.md)

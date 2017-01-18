@@ -1,10 +1,10 @@
-#Advanced Functions
+# Advanced Functions
 
 [Code](adv-func.go)
 
 Learning how to use advanced features of functions such as Variadic functions and functions with multiple return values is an important step towards creating complex programs.
 
-###Functions with an Arbitrary Number of Arguments (Variadic Functions)
+### Functions with an Arbitrary Number of Arguments (Variadic Functions)
 
 So far we have learnt to create functions with a defined number of inputs, however, sometimes we want to make functions that can take an arbitrary number of inputs or a slice and perform actions on the values.
 
@@ -16,7 +16,7 @@ So far we have learnt to create functions with a defined number of inputs, howev
 
 	For example: Using our printArgSlice function, and a slice `classSizes := []int{1, 2, 7}`, the following code `printArgSlice(classSizes...)` will print `[1 2 7]`.
 
-###Functions with Multiple Return Values
+### Functions with Multiple Return Values
 
 Functions that can return multiple values can be useful for many different applications, specifically, you can create complex functions that achieve multiple parts of a problem, and just access certain values when necessary.
 
@@ -44,7 +44,7 @@ Functions that can return multiple values can be useful for many different appli
 	fmt.Println(sub)
 	```
 
-###Next
+### Next
 
 * [Home](../../README.md)
 * [Intermediate Overview](../intermediate.md)

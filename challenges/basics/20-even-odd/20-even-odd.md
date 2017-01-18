@@ -1,6 +1,6 @@
-#1 to 20 Even and Odd
+# 1 to 20 Even and Odd
 
-###Introduction
+### Introduction
 
 After learning about the different value types, variables and constants, if else statements and for loops, it's about time for your first challenge! In this challenge you need to use all the skills you have gained, to print out a list of numbers, 1-20 or any other list, with the value even or odd based on the number. When you run your program, it should output something similar to this.
 ```
@@ -12,11 +12,11 @@ After learning about the different value types, variables and constants, if else
 20 - EVEN
 ```
 Now, what are you waiting for? Create a new file either here and call it myanswer.go and get going. The solution to this problem can be found in [20-even-odd.go](20-even-odd.go).
-###Hints
+### Hints
 
 1. You may need to look at the [Operators and Comparators](../../../basics/operators/operators.md) section to figure out how to find even and odd numbers.
 
-###A Solution, Explained
+### A Solution, Explained
 [Solution](./20-even-odd.go). This is only one way of solving the problem, and as with most programming challenges, there are multiple ways to go about solving the same problem. In this method, and all other methods, we start with the basic outline of a Go program.
 ```go
 package main
@@ -47,7 +47,7 @@ func main() {
 ```
 You can find the code [here](./20-even-odd.go).
 
-###Next
+### Next
 
 * [Home](../../README.md)
 * [Basics Overview](../../../basics/basics.md)

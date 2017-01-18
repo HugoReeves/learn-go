@@ -1,10 +1,10 @@
-#Switches
+# Switches
 
 [Code](switches.go)
 
 Switches are similar to if else statements, and they are actually capable of the exact same tasks as if else statements. The basis of a switch is taking a value, usually stored as a variable and performing logical actions based on the value of the variable.
 
-###Using Switches
+### Using Switches
 There are multiple ways to use switches, but generally you include a variable in the switch statement and the values are referenced in the case statements.
 
 * Basic switch and cases - We use the following syntax for a basic switch and case,
@@ -47,7 +47,7 @@ There are multiple ways to use switches, but generally you include a variable in
 	```
 	Will print `Greater than 10`, if however b was not an int, the default case would print `The variable is not an int`.
 
-###Next
+### Next
 
 * [Home](../../README.md)
 * [Basics Overview](../basics.md)

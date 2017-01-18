@@ -1,10 +1,10 @@
-#Recursive Functions
+# Recursive Functions
 
 [Code](recursive-functions.go)
 
 Recursive Functions are functions that call themselves. Recursive functions work by returning themselves unless a certain if else statement runs.
 
-###Defining Recursive Functions
+### Defining Recursive Functions
 The basis of a recursive function is a function that returns itself. This is best explained through an example.
 ```go
 package main
@@ -43,7 +43,7 @@ func main() {
 ```
 This simply prints the values 10 -> 1 to the console. Although this could be easily achieved using a for loop, it proves the concept of recursive functions.
 
-###Next
+### Next
 
 * [Home](../../README.md)
 * [Intermediate Overview](../intermediate.md)

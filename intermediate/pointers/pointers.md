@@ -1,6 +1,6 @@
-#Scope
+# Pointers
 
-[Code](scope.go)
+[Code](pointers.go)
 
 Pointers allow us to pass the memory location of variables. This allows us to do lots of cool stuff, like changing variables from different scopes in functions (You will learn about that soon). This is important as it allows us to temporarily access variables in scopes that we would not usually be able to access.
 
@@ -21,8 +21,8 @@ func changeString(input *string) {
 
 Go see the [code](pointers.go) to see how this works in action.
 
-###Next
+### Next
 
 * [Home](../../README.md)
 * [Intermediate Overview](../intermediate.md)
-* [Pointers](../pointers/pointers.md)
+* [Challenge 3: Factorial Function](../../challenges/intermediate/factorial-function/factorial-function.md)

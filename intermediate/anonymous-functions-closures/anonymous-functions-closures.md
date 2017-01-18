@@ -1,13 +1,13 @@
-#Recursive Functions
+# Anonymous Functions and Closures
 
-[Code](recursive-functions.go)
+[Code](anonymous-functions-closures.go)
 
 Anonymous Functions allow us to make and use functions inline and Anonymous Functions can create closures. This lesson has a lot to do with the scope which you will learn about in a following lesson.
 
-###Anonymous Functions
+### Anonymous Functions
 Anonymous functions allow us to declare an use functions without naming them. This helps to minimize the number of things within the scope. Anonymous functions are often declared as return values of other functions, this keeps them anonymous and allows them to run themselves automatically which is why the function can remain nameless.
 
-###Closure
+### Closure
 
 Closure is often seen as a very complicated topic for those not familiar with the subject. Closure allows you to create functions that retain a certain values across runs. In the code for this lesson, we define a function that returns a function that returns an int. The int increments itself when the function runs.
 ```go
@@ -54,7 +54,7 @@ func main() {
 ```
 So, when we run the following code, the variable, storeThisVal, defined inside of the function closure() is not the same or accessable inside of func main().
 
-###Next
+### Next
 
 * [Home](../../README.md)
 * [Intermediate Overview](../intermediate.md)

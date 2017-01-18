@@ -1,10 +1,10 @@
-#Variables and Constants
+# Variables and Constants
 
 [Code](./vars-consts.go)
 Here we learn about the two ways in which we store values.
 Values can be stored as a variable or a constant. Variables are declared once, and their value can change through the course of a program however the type can't. Constants are declared once and they cannot be changed once declared.
 
-###Declaring Variables
+### Declaring Variables
 There are three primary ways to declare variables, each have different purposes.
 
 * `var NAME TYPE = VALUE` - This is the most basic method of defining variables but it is also the longest way of defining them.
@@ -19,7 +19,7 @@ There are three primary ways to declare variables, each have different purposes.
 * `NAME := VALUE` - This is a common way of declaring a variable as it is quick and easy to write and read. Go is smart enough to use the data that you input and infer what type it is.
 	For example: `myName := octocat` is the same as `var myName string = "octocat"`
 
-###Declaring Constants
+### Declaring Constants
 There are two main methods in which constants are declared
 
 * `const NAME TYPE = VALUE` - This is the most basic way that constants are declared. The name is given, then the type and then the value which must conform to the type.
@@ -28,7 +28,7 @@ There are two main methods in which constants are declared
 * `const NAME = VALUE` - This is a slightly shorter method in which the type is inferred. The name is given and then a value is given and Go infers the type based on the value.
 	For example: `const constantInteger = 10`
 
-###Next
+### Next
 
 * [Home](../../README.md)
 * [Basics Overview](../basics.md)
