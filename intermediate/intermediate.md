@@ -12,5 +12,7 @@ Now that we know the basics of programming in Go, we can move on to more advance
 1. [Challenge 3: Factorial Function using Pointers](../challenges/intermediate/factorial-function/factorial-function.md) - Find the factorial of an input using for loops and pointers.
 1. [Structs](structs/structs.md) - Structs are organised lists of data with defined datatypes, you can easily organise 'objects' in your code with structs.
 1. [Methods](methods/methods.md) - Methods are simmilar to functions and are written in a simmilar way, but instead of taking arguments, they have a reciever.
+1. [Interfaces](interfaces/interfaces.md) - Interfaces allow us to perform simmilar methods on multiple types, this includes different structs.
+1. [Panic, Recover and Defer](panic-recover-defer/panic-recover-defer.md) - Panic, Recover and Defer allow our code to react to errors and handle them appropiately.
 
 [Home](../README.md)

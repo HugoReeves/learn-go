@@ -51,4 +51,4 @@ You can apply methods to objects using the following syntax, `object.METHOD(argu
 
 * [Home](../../README.md)
 * [Intermediate Overview](../intermediate.md)
-* [Next Lesson: Interfaces](../interfaces/interfaces.md)
+* [Next Lesson: Panic, Recover and Defer](../panic-recover-defer/panic-recover-defer.md)

@@ -1,6 +1,6 @@
 # Learn Go
 
-This is a public repository for those wanting to learn the basics of Go. You can take a look at the [Roadmap](roadmap.md) or take a look at the [Projects section](https://github.com/DevelopDevs/learn-go/projects) to learn about the plans for this course.
+This is a public repository for those wanting to learn the basics of Go.
 
 ## Course Outline
 1. [Basics](basics/basics.md)
@@ -27,6 +27,8 @@ This is a public repository for those wanting to learn the basics of Go. You can
 	1. [Challenge 3: Factorial Function using Pointers](challenges/intermediate/factorial-function/factorial-function.md)
 	1. [Structs](intermediate/structs/structs.md)
 	1. [Methods](intermediate/methods/methods.md)
+	1. [Interfaces](intermediate/interfaces/interfaces.md)
+	1. [Panic, Recover and Defer](intermediate/panic-recover-defer/panic-recover-defer.md)
 
 ## Getting Setup with Go
 
