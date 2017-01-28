@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-//Defininf the worker interface
+//Define the worker interface
 type worker interface {
 	contractCost() int
 }
@@ -28,7 +28,7 @@ type investor struct {
 	trustworthy bool
 }
 
-//The following two methods are identical excpet for the type they recieve
+//The following two methods are identical except for the type they recieve
 func (p deskWorker) contractCost() int {
 	return p.fixedSalary * p.contractDuration
 }
@@ -37,7 +37,7 @@ func (p boss) contractCost() int {
 	return p.fixedSalary * p.contractDuration
 }
 
-//Here, we create a function that recieves anything of the works interface type
+//Here, we create a function that recieves anything of the worker interface type
 func printCost(p worker) {
 	fmt.Print("The total contract cost is ", p.contractCost(), "\n")
 }
