@@ -1,6 +1,6 @@
 # Methods
 
-[Code](methods.go)
+[Code](../methods.go)
 
 Interfaces allow us to group types together based on the methods available for each type. This is known as polymorphism and it's an important part of creating complex code that uses multiple different types of structs, while keeping our code simple.
 
