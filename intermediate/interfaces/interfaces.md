@@ -2,50 +2,74 @@
 
 [Code](methods.go)
 
-Methods are simmilar to functions and are written in a simmilar way, they can take arguments but they must always have a reciever. For the following explanations we will be using the following struct,
+Interfaces allow us to group types together based on the methods available for each type. This is known as polymorphism and it's an important part of creating complex code that uses multiple different types of structs, while keeping our code simple.
+
+### Setup
+
+Before we begin learning about interfaces, we should define a few structs and methods first. In this example, we will be have three structs, each themed around business.
 ```go
-type enemy struct {
-	name      string
-	maxhealth int
-	health    int
+type boss struct {
+	fName            string
+	rank             string
+	fixedSalary      int
+	contractDuration int
+}
+
+type deskWorker struct {
+	fName            string
+	promotionPending bool
+	fixedSalary      int
+	contractDuration int
+}
+
+type investor struct {
+	fName       string
+	lName       string
+	netWorth    int
+	trustworthy bool
 }
 ```
-And we will create one variable called enemy1 with the enemy struct, `enemy1 := enemy{"Bill", 20, 10}`.
-
-### Defining Methods
-
-Defining Methods is very simmilar to defining a function, we just have to include a statement that declares the reciever. We define a function with the following syntax `func (recievername type) methodname(args) optionalreturntype { CODE }`, where recievername is treated just like an argname and the type can be a standard type or a struct.
-In our code, we defined two methods, one method, revive, takes a pointer to an enemy type as the reciever and no args, the other method, attack, takes a pointer to an enemy type as the reciever and a single int damage arg.
-The code for the revive method:
+We then define the same method for both the boss and deskWorker structs. It is important to note that name of the method and the return value is the same. In this example, the only difference between the two methods is the recieving type, deskWorker and boss.
 ```go
-func (enemy *enemy) revive() {
-	if enemy.health <= 0 {
-		enemy.health = enemy.maxhealth
-		fmt.Println("You revived", enemy.name, "to max health!")
-	} else {
-		fmt.Println(enemy.name, "could not be revived as they are not dead!")
-	}
+func (p deskWorker) contractCost() int {
+	return p.fixedSalary * p.contractDuration
+}
+
+func (p boss) contractCost() int {
+	return p.fixedSalary * p.contractDuration
 }
 ```
-This code, checks if the health of the enemy is less than or equal to 0, if so, it sets the enemies health to max and tells the user who they have revived. Otherwise, it tells the user that the enemy coul not be revived as they are not dead.
+Now that we have three types and two simmilar methods setup, we can begin learning about interfaces and polymorphism.
 
-The code for the attack method:
+### How an Interface works, and how to define an Interface.
+
+It is important to understand how interfaces work, before we can make our own. Interfaces work implicitly rather than explicitly, meaning that instead of listing which types to include in an interface, we just list the methods a type needs to have to be a part of the interface. The most simple way to read an interface is "If a type has the following methods, that return the following values, it is a member of this interface".
+Interfaces are laid out simmilar to structs, using the type statement. Standard syntax for creating an interface is the following.
 ```go
-func (enemy *enemy) attack(damage int) {
-	if enemy.health-damage <= 0 {
-		enemy.health = 0
-		fmt.Println("You killed", enemy.name, "by dealing", damage, "to them.")
-	} else {
-		enemy.health = enemy.health - damage
-		fmt.Println("You delt", damage, "damage to", enemy.name, "now they have", enemy.health, "health remaining.")
-	}
+type INTERFACENAME interface {
+	METHOD() RETURNTYPE
+	...
+	METHOD() RETURNTYPE
 }
 ```
-This code, takes an enemy reciever and an arg specifing the ammount of damage to apply. If the damage would kill the enemy, it sets the enemies health to 0 and tells the user that the enemy was killed. If the damage would not kill the enemy, the health of the enemy is reduced accordingly and the user is told how much damage was delt.
+* The interface name is how we refer to the interface.
+* Each method listed is a method that a type requires to be considered part of the interface.
+* The RETURNTYPE states the return value of the method listed.
 
-### Using Methods
-
-You can apply methods to objects using the following syntax, `object.METHOD(arguments if needed)`. Using our previously defined methods, we can apply them in the following ways to the enemy1 enemy object, `enemy1.revive()` to revive the enemy or `enemy1.attack(5)` to deal 5 damage to the enemy.
+We have already defined two methods with the same name and return type, now, we can add them to an interface.
+```go
+type worker interface {
+	contractCost() int
+}
+```
+Using our statement from earlier, we can say, "If a type has the contractCost method, and returns the type int, it is a member of the worker interface". So, the boss and deskWorker types both have the contractCost method, therefore they are members of the worker interface.
+Now that we have our interface defined, we can create a function that takes any member of the worker interface as an arg.
+```go
+func printCost(p worker) {
+	fmt.Print("The total contract cost is ", p.contractCost(), "\n")
+}
+```
+This way, we can pass a boss or a deskWorker to the printCost function, and they will both act the same. This is polymorphism, and it will become more useful to you as you progress to more complex projects.
 
 ### Next
 
